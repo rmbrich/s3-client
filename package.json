@@ -1,0 +1,26 @@
+{
+  "name": "@rmbrich/s3-client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/s3.js",
+  "scripts": {
+    "test": "jest --passWithNoTests",
+    "publish": "dotenv npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rmbrich/s3-client.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.266.0",
+    "@aws-sdk/lib-storage": "^3.266.0",
+    "@aws-sdk/s3-request-presigner": "^3.266.0",
+    "mime-types": "^2.1.35"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.3",
+    "jest": "^29.4.1"
+  }
+}
